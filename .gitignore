@@ -1,0 +1,13 @@
+# 数据集（版权归原作者，不随仓库分发，自行下载）
+data/DuReaderQG/
+# 模型权重 / 训练产物
+models/
+outputs/
+*.bin
+*.safetensors
+*.pt
+# Python / 系统
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
