@@ -48,3 +48,5 @@ pip install -r requirements.txt
 ## License
 
 [MIT](LICENSE)
+
+最新核对见 [LATEST_STATUS.md](LATEST_STATUS.md)（2026-10-11）。

@@ -10,8 +10,8 @@ from pathlib import Path
 from statistics import mean, median
 
 
-DEFAULT_TRAIN = Path("/Users/yunye/Documents/培训/丁师兄/实战/data/DuReaderQG/train.json")
-DEFAULT_DEV = Path("/Users/yunye/Documents/培训/丁师兄/实战/data/DuReaderQG/dev.json")
+DEFAULT_TRAIN = Path(__file__).resolve().parents[1] / "data/DuReaderQG/train.json"
+DEFAULT_DEV = Path(__file__).resolve().parents[1] / "data/DuReaderQG/dev.json"
 DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parents[1] / "outputs"
 
 
